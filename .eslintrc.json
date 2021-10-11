@@ -12,7 +12,10 @@
         "linebreak-style": ["error", "windows"],
         "no-console": "off",
         "indent": ["error", 4],
-        "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+        "no-underscore-dangle": [
+            "error",
+            { "allowAfterThis": true, "allow": ["_exports"] }
+        ],
         "camelcase": [
             "error",
             { "ignoreDestructuring": true, "properties": "never" }
