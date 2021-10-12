@@ -14,7 +14,7 @@
         "indent": ["error", 4],
         "no-underscore-dangle": [
             "error",
-            { "allowAfterThis": true, "allow": ["_exports"] }
+            { "allowAfterThis": true, "allow": ["_exports", "_data"] }
         ],
         "camelcase": [
             "error",
